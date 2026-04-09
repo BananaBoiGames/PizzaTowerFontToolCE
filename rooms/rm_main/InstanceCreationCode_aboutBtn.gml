@@ -8,7 +8,8 @@ func = function()
 	
 	var aboutText =
 	"Pizza Font Tool Community Edition\nVersion " + string(GM_version) + "\n" +
-	"-------------------\n" + "Built on " + date
+	"-------------------\n" + "Built on " + date + "\n" +
+	"Original by BasicCube"
 	
 	show_message(aboutText)
 }
